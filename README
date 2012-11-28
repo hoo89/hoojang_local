@@ -1,0 +1,12 @@
+ブラウザ上で動くJavaScriptの麻雀ゲームです。
+ただし、動作確認は今のところ最新版のGoogle Chromeでしか行なっておりません。
+このプログラムはCoffeeScriptで書かれています。
+
+This is Mahjong game working on WebBrowser with JavaScript.
+This program is written in CoffeeScript.
+
+Copyright(c) hoo89 http://d.hatena.ne.jp/Hoo/ hoo89@me.com
+This source licensed under the MIT license.
+
+Thanks for Mahjong Pai image.
+Empire of the Mahjong-麻雀帝國- http://www.ambitious-net.com/
