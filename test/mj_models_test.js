@@ -18,6 +18,8 @@ function array_equal(arr1,arr2){
 
 	a.sort();
 	b.sort();
+
+	console.log(a,b)
 	
 	for(var i=0;i<a.length;i++){
 		if(a[i] instanceof Array){

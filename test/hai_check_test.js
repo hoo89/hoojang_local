@@ -41,6 +41,18 @@ test("純正九蓮待ち計算",function(){
 	checker.check_agari();
 	var machis;
 	ok(machis=checker.machis);
-	console.log(machis);
 	ok(array_equal(machis.map(function(i){return i[0]}),[0,1,2,3,4,5,6,7,8]));
 });
+test("七対子待ち",function(){
+	var arr=[1,1,2,2,5,5,22,22,12,12,14,14,7,7]
+	for(var i=0;i<14;i++){
+		checker.push_tehai(arr[i]);
+	}
+	checker.check_agari();
+	ok(checker.can_agari());
+	checker.dahai(1);
+	checker.check_agari();	
+	var m=checker.machis;
+	ok(array_equal(m,[[1,undefined]]));
+
+})
