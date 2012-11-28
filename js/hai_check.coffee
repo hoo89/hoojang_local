@@ -1,3 +1,5 @@
+###Copyright (c) 2012 hoo89 (hoo89@me.com) Licensed MIT###
+
 #アガリ判定、待ち判定、役の判定・役の点計算などを行なっている部分
 
 class MJ

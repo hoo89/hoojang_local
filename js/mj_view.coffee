@@ -1,3 +1,5 @@
+###Copyright (c) 2012 hoo89 (hoo89@me.com) Licensed MIT###
+
 #ゲームの表示を主に担当する部分 MVCのVとC
 #未完成につき注意
 
